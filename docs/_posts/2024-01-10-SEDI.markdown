@@ -1,0 +1,8 @@
+---
+layout: post
+title:  SEDI UK in Leeds, England
+date:   2024-01-10 13:50:23 +0000
+tagline: Poster
+categories: jekyll update
+---
+<object data="{{"/files/SEDI24_Recalde.pdf"| absolute_url}}" style="width:100%;height:110vh" type="application/pdf"> </object>

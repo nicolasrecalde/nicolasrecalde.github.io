@@ -6,7 +6,7 @@ layout: default
 
   {{ content }}
 
-  <h2>Latest Posts</h2>
+  <h2> Research events </h2>
 
   <div>&nbsp;</div>
 
@@ -14,14 +14,14 @@ layout: default
     {% for post in site.posts %}
       <li>
 
-        {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+        {% assign date_format = site.cayman-blog.date_format | default: "%b %Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
           <a class="post-link" href="{{ post.url | absolute_url }}" title="{{ post.title }}">{{ post.title | escape }}</a>
         </h2>
 
-        {{ post.excerpt | markdownify | truncatewords: 30 }}
+        {{ post.excerpt }}
 
       </li>
     {% endfor %}

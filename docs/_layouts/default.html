@@ -2,7 +2,7 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
 <head>
-    
+    <link rel="stylesheet" href="{{"font-awesome/css/font-awesome.min.css"| absolute_url }}">
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
     <script>
@@ -78,7 +78,7 @@
             {% if page.layout == 'post' %}
             <h2 class="project-date">
                 <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-                    {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+                    {% assign date_format = site.cayman-blog.date_format | default: "%b %Y" %}
                     {{ page.date | date: date_format }}
                 </time>
                 {% assign page_author = page.author | default: site.author | default: nil | escape %}
