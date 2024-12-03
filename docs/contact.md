@@ -3,7 +3,7 @@ layout: page
 title: Contact
 tagline: E-mail and other links
 ref: contact
-order: 1
+order: 3
 ---
 Nicolas Récalde
 

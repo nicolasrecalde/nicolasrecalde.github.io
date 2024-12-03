@@ -3,6 +3,7 @@ layout: page
 title: Research
 permalink: /research/
 ref: research
+tagline: Research results presented at conferences
 order: 0
 ---
 
