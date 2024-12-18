@@ -21,8 +21,7 @@
 title: Nicolas Récalde
 email: recalden@cardiff.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  I am a PhD student in geodynamics currently at Cardiff University, my research focuses on modelling mantle evolution with Noble Gases constraints.
-  Have a look at what I'm up to! 
+  I am a PhD researcher in mantle geodynamics at Cardiff University, my research focuses on modelling the Earth's mantle evolution with Noble Gases constraints.
 #baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
