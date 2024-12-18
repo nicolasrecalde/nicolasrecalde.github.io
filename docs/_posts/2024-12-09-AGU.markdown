@@ -4,7 +4,7 @@ title:  "AGU Conference in Washington D.C., USA"
 date:   2024-12-01 13:50:23 +0000
 categories: jekyll update
 ---
-<object data="{{"/files/AGU24_Recalde.pdf"| absolute_url}}" style="width:100%;height:100vh" type="application/pdf"> </object>
+<object data="{{"/files/AGU24_Recalde.pdf"| absolute_url}}" style="width:100%;height:50vh" type="application/pdf"> </object>
 
 <!--You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.-->
 <!---->
